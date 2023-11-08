@@ -1,0 +1,23 @@
+/* Placement */
+
+html, body {
+    height: 100%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 1.4rem;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}

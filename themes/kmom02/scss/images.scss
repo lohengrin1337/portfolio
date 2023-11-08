@@ -1,0 +1,17 @@
+/* Images */
+
+.img {
+    max-width: 100%;
+}
+
+.profile {
+    float: left;
+    margin-right: 1.4rem;
+}
+
+@media (max-width: 520px) {
+    .profile {
+        float: none;
+        margin-right: 0;
+    }
+}

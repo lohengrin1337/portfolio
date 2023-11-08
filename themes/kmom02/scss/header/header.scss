@@ -1,0 +1,15 @@
+/* Header */
+
+@forward "title";
+@forward "navigation";
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+}
+
+.header {
+    padding: 1.4rem;
+}
