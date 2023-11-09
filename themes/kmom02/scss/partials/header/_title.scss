@@ -7,11 +7,26 @@
     padding-right: var.$baseline;
 }
 
-.title * {
-    font-family: var.$header-font;
-    color: var.$almost-black;
-}
+.title {
+    * {
+        color: var.$almost-black;
+    }
 
-.title p {
-    font-style: italic;
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+    }
+
+    p {
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+
+    }
+
 }

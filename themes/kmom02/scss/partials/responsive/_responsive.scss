@@ -3,24 +3,49 @@
 @forward "mobile-menu";
 
 @use "../variables" as var;
+@use 'sass:math';
 
 img {
     max-width: 100%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 560px) {
+
+    // headings
+
+    h1 {
+        font-size: calc(1rem * math.pow(var.$scale-factor-mobile, 4));
+    }
+    
+    h2 {
+        font-size: calc(1rem * math.pow(var.$scale-factor-mobile, 3));
+    }
+    
+    h3{
+        font-size: calc(1rem * math.pow(var.$scale-factor-mobile, 2));
+    }
+    
+    h4{
+        font-size: calc(1rem * var.$scale-factor-mobile);
+    }
+
+    //site header
+
     .header {
         padding: calc(var.$baseline / 2);
     }
 
     .title,
     .logo {
-        padding-right: calc(var.$baseline / 2);
+        padding-right: 0;
     }
 
     .title {
         min-width: 50%;
-        font-size: 80%;
+
+        h1 {
+            letter-spacing: 0;
+        }
     }
 
     .logo {
@@ -28,9 +53,24 @@ img {
     }
 }
 
-@media (max-width: 520px) {
+// logo img
+
+@media (max-width: 380px) {
+    .logo img {
+        display: none;
+    }
+}
+
+
+// profile img
+
+@media (max-width: 522px) {
     .profile {
         float: none;
         margin-right: 0;
     }
 }
+
+// footer
+
+

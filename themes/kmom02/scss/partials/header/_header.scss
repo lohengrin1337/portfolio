@@ -14,6 +14,8 @@
     @extend %flex;
     padding: 1.4rem;
     background-color: var.$grey;
+
+    font-family: var.$alternate-font
 }
 
 .site-header {

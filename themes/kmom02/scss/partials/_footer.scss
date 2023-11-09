@@ -5,8 +5,12 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: var.$grey;
     padding: calc(var.$baseline * 2);
+
+    font-family: var.$alternate-font;
+
 
     .social {
         font-size: 2rem;

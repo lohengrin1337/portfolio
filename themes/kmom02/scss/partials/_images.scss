@@ -8,5 +8,6 @@
 
 .profile {
     float: left;
-    margin-right: var.$baseline;
+    margin: 0 var.$baseline var.$baseline 0;
+    height: calc(var.$baseline * 11);
 }
