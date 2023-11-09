@@ -1,0 +1,25 @@
+// RESPONSIVE
+
+@forward "mobile-menu";
+
+@use "../variables" as var;
+
+@media (max-width: 400px) {
+    .header {
+        padding: calc(var.$baseline / 2);
+    }
+
+    .title,
+    .logo {
+        padding-right: 0.7rem;
+    }
+
+    .title {
+        min-width: 50%;
+        font-size: 80%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}

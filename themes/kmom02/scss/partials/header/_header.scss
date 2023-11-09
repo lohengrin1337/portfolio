@@ -3,13 +3,19 @@
 @forward "title";
 @forward "navigation";
 
-.header,
-.site-header {
+@use "../variables" as var;
+
+%flex {
     display: flex;
     justify-content: space-between;
-    background-color: #ccc;
 }
 
 .header {
+    @extend %flex;
     padding: 1.4rem;
+    background-color: var.$grey;
+}
+
+.site-header {
+    @extend %flex;
 }

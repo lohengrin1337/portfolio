@@ -1,17 +1,9 @@
-
-
 @use "partials/normalize";
-@use "partials/variables";
+// @use "partials/variables";
 @use "partials/placement";
 @use "partials/typography/typography.scss";
 @use "partials/header/header.scss";
 @use "partials/footer";
 @use "partials/images";
 @use "partials/test";
-
-
-// @import '../../shared/fontawesome/scss/fontawesome';
-// $fa-font-path: '../../shared/fontawesome/webfonts';
-// @import '../../shared/fontawesome/scss/brands';
-// @import '../../shared/fontawesome/scss/solid';
-// @import '../../shared/fontawesome/scss/regular';
+@use "partials/responsive/responsive";
