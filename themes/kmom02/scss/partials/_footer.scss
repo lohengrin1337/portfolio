@@ -1,16 +1,14 @@
 /* Footer */
 
+@use "variables" as var;
+
 .footer {
     display: flex;
     justify-content: space-between;
-    background-color: #ccc;
-    padding: 2.8rem;
-}
+    background-color: var.$grey;
+    padding: calc(var.$baseline * 2);
 
-.footer a {
-    color: #222;
-}
-
-.footer .social {
-    font-size: 2rem;
+    .social {
+        font-size: 2rem;
+    }
 }

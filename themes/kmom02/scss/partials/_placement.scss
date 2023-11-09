@@ -1,6 +1,9 @@
 /* Placement */
 
-html, body {
+@use "variables" as var;
+
+html,
+body {
     height: 100%;
 }
 
@@ -14,7 +17,7 @@ html, body {
     width: 100%;
     max-width: 800px;
     margin: auto;
-    padding: 1.4rem;
+    padding: var.$baseline;
 }
 
 .header,

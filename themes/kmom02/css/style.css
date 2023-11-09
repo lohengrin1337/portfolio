@@ -1,3 +1,7 @@
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
 /* Test */
 @import url("https://fonts.googleapis.com/css2?family=Creepster&family=Lato&family=Quintessential&display=swap");
@@ -314,8 +318,13 @@ template {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 100%;
+}
+
 /* Placement */
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -337,11 +346,6 @@ html, body {
   flex: 0 0 auto;
 }
 
-/* Typografy */
-/*!
- * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
 .fa,
 .fas,
 .far,
@@ -6469,7 +6473,6 @@ pre {
   border-radius: 0.3em;
   background: #f5f5f5;
 }
-
 pre code {
   display: block;
   margin: 0;
@@ -6490,12 +6493,7 @@ blockquote {
 .body {
   font-family: "Baskervville", serif;
   line-height: 1.4;
-  color: #444;
-}
-
-p, td, th, li, dd {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+  color: #333;
 }
 
 p {
@@ -6503,12 +6501,9 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "sans-serif";
   margin-bottom: 1.4rem;
   font-weight: bold;
-}
-
-img {
-  max-width: 100%;
 }
 
 /* Header */
@@ -6519,7 +6514,7 @@ img {
 }
 
 .title * {
-  color: #111;
+  color: #333;
 }
 
 .title p {
@@ -6553,11 +6548,6 @@ img {
   background-color: #ccc;
   padding: 2.8rem;
 }
-
-.footer a {
-  color: #222;
-}
-
 .footer .social {
   font-size: 2rem;
 }
@@ -6572,12 +6562,6 @@ img {
   margin-right: 1.4rem;
 }
 
-@media (max-width: 520px) {
-  .profile {
-    float: none;
-    margin-right: 0;
-  }
-}
 .box {
   border: 5px solid #ffc0cb;
   padding: 2px;
@@ -6692,6 +6676,10 @@ img {
     border: none;
   }
 }
+img {
+  max-width: 100%;
+}
+
 @media (max-width: 400px) {
   .header {
     padding: 0.7rem;
@@ -6706,5 +6694,11 @@ img {
   }
   .logo {
     max-width: 30%;
+  }
+}
+@media (max-width: 520px) {
+  .profile {
+    float: none;
+    margin-right: 0;
   }
 }

@@ -1,6 +1,4 @@
 /* Test */
-@use "typography/fonts";
-
 .box {
     border: 5px solid #ffc0cb;
     padding: 2px;
@@ -60,8 +58,6 @@ $fantasy-font: 'Creepster', sans-serif;
     //     font-size: 200%;
     // }
 }
-
-
 
 .modern {
     @include letter-lg();
