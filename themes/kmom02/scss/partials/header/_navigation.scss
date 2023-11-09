@@ -2,25 +2,14 @@
 
 @forward "mobile-menu";
 
-.nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-}
+.nav {
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
 
-.nav a:hover {
-    border-bottom: 2px solid #333;
-}
-
-.nav li:first-of-type {
-    background-color: aqua;
-}
-
-
-.nav li:last-of-type {
-    background-color: beige;
-}
-
-.nav li:hover {
-    background-color: plum;
+    a:hover {
+        border-bottom: 2px solid #333;
+    }
 }
