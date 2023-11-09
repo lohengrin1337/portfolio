@@ -3,8 +3,9 @@
 @forward "code";
 @forward "blockquotes";
 
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@use "../variables";
 
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
 
 .body {
     font-family: 'Baskervville', serif;
@@ -13,13 +14,13 @@
 }
 
 p, td, th, li, dd {
-    /* text-align: justify; */
+    // text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
 
 p {
-    margin-bottom: 1.4rem;
+    margin-bottom: variables.$baseline;
 }
 
 h1, h2, h3, h4, h5, h6 {

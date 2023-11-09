@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
+/* Test */
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Lato&family=Quintessential&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -378,7 +380,6 @@ blockquote {
 }
 
 p, td, th, li, dd {
-  /* text-align: justify; */
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -543,7 +544,6 @@ img {
     margin-right: 0;
   }
 }
-/* Test */
 .box {
   border: 5px solid pink;
   padding: 2px;
@@ -575,4 +575,30 @@ img {
   height: 100px;
   background-color: green;
   box-sizing: border-box;
+}
+
+.old-fashioned {
+  color: #333;
+  font-family: "Quintessential", serif;
+}
+.old-fashioned::first-letter {
+  font-size: 200%;
+}
+
+.modern {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1em;
+}
+.modern::first-letter {
+  font-size: 200%;
+}
+
+.worst-ever {
+  color: red;
+  font-family: "Creepster", sans-serif;
+  letter-spacing: 1.1em;
+}
+.worst-ever::first-letter {
+  font-size: 200%;
 }

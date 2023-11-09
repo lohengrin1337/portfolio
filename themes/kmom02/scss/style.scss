@@ -1,8 +1,8 @@
-@use "normalize";
-@use "variables";
-@use "placement";
-@use "typography/typography.scss";
-@use "header/header.scss";
-@use "footer";
-@use "images";
-@use "test";
+@use "partials/normalize";
+@use "partials/variables";
+@use "partials/placement";
+@use "partials/typography/typography.scss";
+@use "partials/header/header.scss";
+@use "partials/footer";
+@use "partials/images";
+@use "partials/test";
