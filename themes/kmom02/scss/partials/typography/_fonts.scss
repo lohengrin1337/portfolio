@@ -9,4 +9,30 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 // Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Lora:wght@400;600;700&family=Montserrat+Alternates:ital,wght@0,500;0,700;1,400;1,900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Lora:wght@600;700&family=Montserrat+Alternates:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+// self hosted fonts
+@font-face {
+    font-family: 'montserrat_alternatesthin';
+    src: url(%assets%'/fonts/montserrat/montserratalternates-thin-webfont.eot');
+    src: url(%assets%'/fonts/montserrat/montserratalternates-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url(%assets%'/fonts/montserrat/montserratalternates-thin-webfont.woff2') format('woff2'),
+         url(%assets%'/fonts/montserrat/montserratalternates-thin-webfont.woff') format('woff'),
+         url(%assets%'/fonts/montserrat/montserratalternates-thin-webfont.ttf') format('truetype'),
+         url(%assets%'/fonts/montserrat/montserratalternates-thin-webfont.svg#montserrat_alternatesthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+// @font-face {
+//     font-family: 'montserrat_alternatesthin';
+//     src: url('../../../../../assets/fonts/montserrat/montserratalternates-thin-webfont.eot');
+//     src: url('../../../../../assets/fonts/montserrat/montserratalternates-thin-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../../../../../assets/fonts/montserrat/montserratalternates-thin-webfont.woff2') format('woff2'),
+//          url('../../../../../assets/fonts/montserrat/montserratalternates-thin-webfont.woff') format('woff'),
+//          url('../../../../../assets/fonts/montserrat/montserratalternates-thin-webfont.ttf') format('truetype'),
+//          url('../../../../../assets/fonts/montserrat/montserratalternates-thin-webfont.svg#montserrat_alternatesthin') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }

@@ -13,21 +13,17 @@
     color: var.$almost-black;
 }
 
-// p, td, th, li, dd {
-//     // text-align: justify;
-//     overflow-wrap: break-word;
-//     word-wrap: break-word;
-// }
-
 p {
     font-size: 1rem;
     margin: 0;
     margin-bottom: var.$baseline;
+    letter-spacing: 0.05em;
 }
 
 %headers {
     font-family: var.$header-font;
-    font-weight: bold;
+    font-weight: 700;
+    letter-spacing: 0.08em;
 }
 
 h1 {
@@ -37,7 +33,6 @@ h1 {
 h2 {
     @extend %headers;
     margin-bottom: var.$baseline;
-    // margin-bottom: calc(var.$baseline / 2);
     font-size: calc(1rem * math.pow(var.$scale-factor, 3));
 }
 
@@ -45,12 +40,14 @@ h3{
     @extend %headers;
     margin: 0;
     font-size: calc(1rem * math.pow(var.$scale-factor, 2));
+    font-weight: 600;
 }
 
 h4{
     @extend %headers;
     margin: 0;
     font-size: calc(1rem * var.$scale-factor);
+    font-weight: 600;
 }
 
 p + h2 {
