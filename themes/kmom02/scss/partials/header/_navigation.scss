@@ -4,12 +4,14 @@
 
 .nav {
     a {
+        color: var.$black;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 600;
+        font-style: normal;
     }
 
     a:hover {
-        border-bottom: 2px solid var.$almost-black;
+        border-bottom: 2px solid var.$black;
     }
 }

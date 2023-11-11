@@ -12,9 +12,7 @@
 
 .header {
     @extend %flex;
-    padding: 1.4rem;
-    background-color: var.$grey;
-
+    padding: var.$baseline;
     font-family: var.$alternate-font;
 }
 

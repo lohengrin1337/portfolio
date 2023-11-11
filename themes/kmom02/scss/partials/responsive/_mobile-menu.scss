@@ -19,14 +19,14 @@
 }
 
 .nav a, .nav-toggle {
-    color: #333;
+    color: #000;
 }
 
 .nav-toggle {
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 950px) {
     .header {
         flex-direction: column;
     }
@@ -60,6 +60,6 @@
 
     // no underline for mobile menu
     .nav li a:hover {
-        border: none;
+        border: unset;
     }
 }

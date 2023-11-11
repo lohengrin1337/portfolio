@@ -1,22 +1,29 @@
-$font-color: #000;
-$font-alternative-color: #fff;
-$accent-color: #ee6c4d;
-$background-color: #3d5a80;
-$background-alternative-color: #e0fbfc;
 
-$grey: #ccc;
+// colors
+$white: #fff;
+$black: #000;
 $almost-black: #333;
+$grey: #ccc;
+$light-purple: #ccf;
 
-$baseline: 1.4rem;
+// $font-color: #000;
+// $font-alternative-color: #fff;
+// $accent-color: #ee6c4d;
+// $background-color: #3d5a80;
+// $background-alternative-color: #e0fbfc;
 
+
+// fonts
 $main-serif: 'Baskervville', serif;
 $main-sans: 'Lato', sans-serif;
 $header-font: 'Lora', serif;
-// $header-font: 'Montserrat Alternates', sans-serif;
-// $alternate-font: 'Montserrat Alternates', sans-serif;
-$alternate-font: 'montserrat_alternatesthin', sans-serif;
+$alternate-font: 'Montserrat Alternates', sans-serif;
 
 
+// baseline
+$baseline: 1.4rem;
 
+
+// size scaling
 $scale-factor: 1.2;
 $scale-factor-mobile: 1.15;

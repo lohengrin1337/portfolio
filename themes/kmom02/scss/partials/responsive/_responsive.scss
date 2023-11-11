@@ -29,10 +29,14 @@ img {
         font-size: calc(1rem * var.$scale-factor-mobile);
     }
 
-    //site header
+    //site header and footer
 
     .header {
         padding: calc(var.$baseline / 2);
+    }
+
+    .footer {
+        padding: var.$baseline;
     }
 
     .title,

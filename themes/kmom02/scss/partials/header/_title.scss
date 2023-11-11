@@ -8,25 +8,21 @@
 }
 
 .title {
-    * {
-        color: var.$almost-black;
-    }
-
     a {
         text-decoration: none;
+        color: var.$black;
     }
 
     h1 {
         font-weight: 300;
+        font-style: normal;
         text-transform: uppercase;
         letter-spacing: 0.2em;
     }
 
     p {
-        font-style: italic;
         font-weight: 400;
+        font-style: italic;
         letter-spacing: 0.1em;
-
     }
-
 }
