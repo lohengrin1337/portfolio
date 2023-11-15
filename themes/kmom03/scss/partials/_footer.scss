@@ -1,0 +1,24 @@
+/* Footer */
+
+@use "variables" as var;
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    // background-color: var.$light-purple;
+    padding: calc(var.$baseline * 2);
+
+    font-family: var.$alternate-font;
+    font-weight: 300;
+    font-style: normal;
+
+
+    .social {
+        font-size: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

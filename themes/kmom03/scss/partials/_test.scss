@@ -1,0 +1,78 @@
+/* Test */
+.box {
+    border: 5px solid #ffc0cb;
+    padding: 2px;
+}
+
+.one {
+    width: 600px;
+    height: 100px;
+    background-color: #000;
+    box-sizing: content-box;
+}
+
+.two {
+    width: 100%;
+    height: 100px;
+    background-color: #00f;
+    box-sizing: content-box;
+}
+
+.three {
+    width: 50vw;
+    height: 100px;
+    background-color: #f00;
+    box-sizing: border-box;
+}
+
+.four {
+    width: 100%;
+    height: 100px;
+    background-color: #080;
+    box-sizing: border-box;
+}
+
+
+// @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Lato&family=Quintessential&display=swap');
+
+$old-font: 'Quintessential', serif;
+$modern-font: 'Lato', sans-serif;
+$fantasy-font: 'Creepster', sans-serif;
+
+@mixin color($color: #333) {
+    color: $color;
+}
+
+@mixin letter-lg() {
+    &::first-letter {
+        font-size: 200%
+    }
+}
+
+.old-fashioned {
+    @include letter-lg();
+    @include color();
+    font-family: $old-font;
+    
+    
+    // &::first-letter {
+    //     font-size: 200%;
+    // }
+}
+
+.modern {
+    @include letter-lg();
+    @include color();
+    font-family: $modern-font;
+    letter-spacing: 0.1em;
+
+}
+
+.worst-ever {
+    @include letter-lg();
+    @include color(#f00);
+
+    font-family: $fantasy-font;
+    letter-spacing: 1.1em;
+    
+}

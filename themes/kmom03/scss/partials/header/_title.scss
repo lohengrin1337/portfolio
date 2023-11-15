@@ -1,0 +1,28 @@
+/* Title */
+
+@use "../variables" as var;
+
+.title,
+.logo {
+    padding-right: var.$baseline;
+}
+
+.title {
+    a {
+        text-decoration: none;
+        color: var.$black;
+    }
+
+    h1 {
+        font-weight: 300;
+        font-style: normal;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+    }
+
+    p {
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: 0.1em;
+    }
+}
