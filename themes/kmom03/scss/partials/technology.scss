@@ -1,0 +1,42 @@
+@use "variables" as var;
+
+.single-tech {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    background-color: var.$white;
+    margin: 0 auto;
+    padding: var.$baseline;
+    border-radius: 10px;
+    gap: var.$baseline;
+
+    .main {
+        flex: 0 1 650px;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .sidebar {
+        flex: 1 0 140px;
+        text-align: left;
+        border-left: 1px solid var.$grey;
+        padding-left: var.$baseline;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .sidebar a {
+        display: inline-block;
+        text-decoration: none;
+        color: var.$almost-black;
+        font-weight: bold;
+        padding-top: var.$baseline;
+    }
+
+    .sidebar a:hover {
+        border-bottom: 1px solid var.$almost-black;
+    }
+}
