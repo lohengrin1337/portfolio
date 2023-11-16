@@ -4,16 +4,59 @@
 .landingpage {
     @include mix.grid;
     grid-template-columns: repeat(3, 1fr);
+
+    h2 {
+        grid-column: span 3;
+        justify-self: center;
+        margin: 0;
+        line-height: calc(var.$baseline * 5);
+        font-size: min(10vw, 73px);
+        text-transform: uppercase;
+    }
+
+    .box {
+        height: calc(var.$baseline * 5);
+        padding: var.$baseline;
+        border-radius: 10px;
+    }
+
+    .box:nth-of-type(1) {
+        grid-column: span 2;
+        background-color: azure;
+    }
+
+    .box:nth-of-type(2) {
+        grid-column: span 1;
+        background-color: beige;
+    }
+
+    .box:nth-of-type(3) {
+        grid-column: span 1;
+        background-color: salmon;
+    }
+
+    .box:nth-of-type(4) {
+        grid-column: span 2;
+        background-color: cornflowerblue;
+    }
+
+    .box:nth-of-type(5) {
+        grid-column: span 3;
+        background-color: cadetblue;
+    }
+
+    .box:nth-of-type(6) {
+        grid-column: span 2;
+        background-color: lavenderblush;
+    }
+
+    .box:nth-of-type(7) {
+        grid-column: span 1;
+        background-color: wheat;
+    }
 }
 
-.landingpage h2 {
-    grid-column: span 3;
-    justify-self: center;
-}
 
-.box {
-    height: calc(var.$baseline * 5);
-}
 
 .block-link {
     display: block;

@@ -75,6 +75,34 @@ img {
     }
 }
 
-// footer
+// technologies
 
+@media (max-width: 430px) {
+    .landingpage {
+        grid-template-columns: 1fr;
+        gap: calc(var.$baseline / 2);
 
+        h2 {
+            line-height: calc(var.$baseline * 3);
+        }
+
+        .box {
+            height: calc(var.$baseline * 3);
+            text-align: center;
+        }
+
+        > * {
+            grid-column: span 1 !important;
+        }
+    }
+}
+
+// technology
+
+@media (max-width: 600px) {
+    .single-tech {
+        .sidebar {
+            display: none;
+        }
+    }
+}
