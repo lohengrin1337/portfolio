@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: var.$baseline;
     // background-color: var.$light-purple;
     padding: calc(var.$baseline * 2);
 
