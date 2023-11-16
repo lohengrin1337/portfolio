@@ -3,12 +3,20 @@
 <body class="body">
     {% include 'incl/nav.twig' %}
 
-    <main class="main" role="main">
-        <div class="single-tech">
-            {{ content }}
-        </div>
-    </main>
-    
+    <div class="single-tech">
+        <main class="main">
+                {{ content }}
+        </main>
+        <aside class="sidebar" role="navigation">
+            <h4>Teknologier</h4>
+            <ul>
+                {% for page in pages("technologies") if not page.hidden %}
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </aside>
+    </div>
+
     {% include 'incl/footer.twig' %}
 </body>
 
