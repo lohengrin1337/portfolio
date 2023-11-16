@@ -1,0 +1,23 @@
+@use "mixins" as mix;
+@use "variables" as var;
+
+.landingpage {
+    @include mix.grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.landingpage h2 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.box {
+    height: calc(var.$baseline * 5);
+}
+
+.block-link {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: var.$almost-black;
+}

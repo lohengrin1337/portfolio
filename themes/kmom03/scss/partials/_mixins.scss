@@ -1,0 +1,25 @@
+@use "variables" as var;
+
+// base grid with standard gap
+@mixin grid() {
+    display: grid;
+    gap: var.$baseline;
+}
+
+// Part of text is hidden due to a smaller container
+// @mixin intro() {
+//     text-overflow: ellipsis;
+//     // white-space: nowrap;
+//     overflow: hidden;
+
+//     h2 {
+//         display: none;
+//     }
+
+//     p {
+//         font-size: 80%;
+//         line-height: 1.2;
+//         margin: 0;
+//         font-style: italic;
+//     }
+// }
