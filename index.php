@@ -16,8 +16,10 @@ $pico = new Pico(
     'themes/'   // themes dir
 );
 
-// override configuration?
-//$pico->setConfig(array());
+// override configuration
+$pico->setConfig(array(
+    "session" => $_SESSION
+));
 
 // run application
 echo $pico->run();

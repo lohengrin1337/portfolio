@@ -4,3 +4,27 @@ if (session_status() == PHP_SESSION_NONE) {
     session_name($name);
     session_start();
 }
+
+if (isset($_GET["action"])) {
+    if ($_GET["action"] == "theme") {
+        $prevVal = $_SESSION["theme"] ?? null;
+
+        if ($prevVal == "dark") {
+            unset($_SESSION["theme"]);
+        } else {
+            $_SESSION["theme"] = "dark";
+        }
+
+        $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+        $url = preg_replace("/index.php\//", "", $url);
+        header("Location: $url");
+    }
+
+    if ($_GET["action"] == "session_destroy") {
+        session_destroy();
+
+        $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+        $url = preg_replace("/index.php\//", "", $url);
+        header("Location: $url");
+    }
+}

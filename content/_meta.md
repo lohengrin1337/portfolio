@@ -4,6 +4,14 @@ Logo:
       path: image/basket_180px.png?w=100
 Tagline: Olofs portfolio
 Social:
+    - title: Dark mode
+      url: ?action=theme
+      icon: fas fa-moon
+
+    - title: Destroy session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
+
     - title: Link to my github repo
       url: https://github.com/lohengrin1337/portfolio
       icon: fab fa-github
