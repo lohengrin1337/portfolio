@@ -1,0 +1,23 @@
+@use "../variables" as var;
+@use 'sass:math';
+
+@media (max-width: 560px) {
+
+    // headings
+
+    h1 {
+        font-size: calc(1rem * math.pow(var.$scale-factor-mobile, 4));
+    }
+    
+    h2 {
+        font-size: calc(1rem * math.pow(var.$scale-factor-mobile, 3));
+    }
+    
+    h3{
+        font-size: calc(1rem * math.pow(var.$scale-factor-mobile, 2));
+    }
+    
+    h4{
+        font-size: calc(1rem * var.$scale-factor-mobile);
+    }
+}

@@ -1,0 +1,27 @@
+/* Placement */
+
+@use "variables" as var;
+
+html,
+body {
+    height: 100%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: var.$baseline;
+    border-radius: 10px;
+}
+
+.header,
+.footer {
+    flex: 0 1 auto;
+}
