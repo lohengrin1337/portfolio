@@ -8,7 +8,7 @@ Analyser
 -----------
 <div class="box">
     <a class="block-link" href="%base_url%?analysis/01_colors" title="Färganalys">
-        <h3>FÄRG</h3>
+        <h3>FÄRG & TYPSNITT</h3>
     </a>
 </div>
 
