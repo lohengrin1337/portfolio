@@ -1,3 +1,5 @@
+@use "sass:string";
+
 @use "partials/normalize";
 @use "partials/placement";
 @use "partials/typography/typography.scss";
@@ -13,3 +15,4 @@
 .main {
     background-color: yellow;
 }
+
