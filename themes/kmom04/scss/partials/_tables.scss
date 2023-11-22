@@ -1,0 +1,29 @@
+@use "variables" as var;
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var.$baseline 0;
+
+    tbody tr:nth-child(2n + 1) {
+        background-color: var.$grey;
+    }
+
+    th {
+        text-align: left;
+    }
+
+    td {
+        border-top: 1px solid var.$grey;
+    }
+
+    th,
+    td {
+        padding: calc(var.$baseline / 2);
+    }
+
+}
+
+.ss {
+    color: #dfb50c
+}
