@@ -5,7 +5,6 @@
     display: flex;
     width: 100%;
     max-width: 900px;
-    background-color: var.$white;
     margin: 0 auto;
     padding: var.$baseline;
     border-radius: 10px;
@@ -20,7 +19,7 @@
     .sidebar {
         flex: 1 0 140px;
         text-align: left;
-        border-left: 1px solid var.$grey;
+        border-left: 1px solid var.$grey-2;
         padding-left: var.$baseline;
     }
 
@@ -32,12 +31,12 @@
     .sidebar a {
         display: inline-block;
         text-decoration: none;
-        color: var.$almost-black;
+        color: var.$font-color;
         font-weight: bold;
         padding-top: var.$baseline;
     }
 
     .sidebar a:hover {
-        border-bottom: 1px solid var.$almost-black;
+        border-bottom: 1px solid var.$font-color;
     }
 }

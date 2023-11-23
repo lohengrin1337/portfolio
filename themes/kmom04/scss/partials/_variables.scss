@@ -1,32 +1,48 @@
 
 // COLORS
 
-// content background-color
-$white: #fff;
+//Primary
+$color-primary-0: #8B8BDD;	// Main Primary color */
+$color-primary-1: #E6E6FF;
+$color-primary-2: #B5B5EF;
+$color-primary-3: #6666C6;
+$color-primary-4: #4747AC;
 
-// body background-color
-$light-purple: #ccf;
+// Complementary
+$color-complement-0: #FFE390;	// Main Complement color */
+$color-complement-1: #FFF7E1;
+$color-complement-2: #FFEDB7;
+$color-complement-3: #FFDB6D;
+$color-complement-4: #F5CB4B;
 
-// main text color
-$almost-black: #333;
+// Greys
+$grey-0: #808280;	// Main Primary color */
+$grey-1: #CDCECD;
+$grey-2: #A2A4A2;
+$grey-3: #626362;
+$grey-4: #3E403E;
 
 $black: #000;
-$grey: #ccc;
+$white: #fff;
+
+
+$font-color: $grey-4;
+$font-alternative-color: $white;
+$accent-color: $color-complement-0;
+$accent-alternative-color: $color-complement-1;
+$background-color: $color-primary-1;
+$background-alternative-color: $color-primary-0;
+
 
 // technologies
-$azure: #f0ffff;
-$beige: #f5f5dc;
-$salmon: #fa8072;
-$cornflowerblue: #6495ed;
-$cadetblue: #5f9ea0;
-$lavenderblush: #fff0f5;
-$wheat: #f5deb3;
+// $azure: #f0ffff;
+// $beige: #f5f5dc;
+// $salmon: #fa8072;
+// $cornflowerblue: #6495ed;
+// $cadetblue: #5f9ea0;
+// $lavenderblush: #fff0f5;
+// $wheat: #f5deb3;
 
-// $font-color: #000;
-// $font-alternative-color: #fff;
-// $accent-color: #ee6c4d;
-// $background-color: #3d5a80;
-// $background-alternative-color: #e0fbfc;
 
 // FONTS
 $main-serif: 'Baskervville', serif;
