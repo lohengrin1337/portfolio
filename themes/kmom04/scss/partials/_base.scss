@@ -1,0 +1,46 @@
+
+@use "variables" as var;
+@use "mixins" as mix;
+
+
+/* Placement and colors */
+html,
+body {
+    height: 100%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    // background-color: var.$background-color;
+    @include mix.gradient-3-shades(
+        to right,
+        var.$color-primary-2,
+        var.$white,
+        var.$color-primary-2
+    );
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: var.$baseline;
+
+    background-color: var.$white;
+    border-radius: 5px;
+}
+
+.header,
+.footer {
+    flex: 0 1 auto;
+    @include mix.gradient-3-shades(
+        135deg,
+        var.$color-complement-3,
+        var.$color-complement-2,
+        var.$color-complement-3
+    );
+    
+    border-radius: 5px;
+}

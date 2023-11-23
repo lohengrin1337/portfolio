@@ -6,7 +6,7 @@ table {
     margin: var.$baseline 0;
 
     tbody tr:nth-child(2n + 1) {
-        background-color: var.$grey-2;
+        background-color: var.$color-primary-2;
     }
 
     th {
@@ -14,7 +14,7 @@ table {
     }
 
     td {
-        border-top: 1px solid var.$grey-3;
+        border-top: 1px solid var.$grey-1;
     }
 
     th,

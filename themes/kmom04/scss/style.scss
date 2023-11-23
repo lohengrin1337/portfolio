@@ -1,11 +1,11 @@
 @use "partials/normalize";
-@use "partials/placement";
-@use "partials/typography/typography.scss";
-@use "partials/header/header.scss";
+@use "partials/base";
+@use "partials/typography/typography";
+@use "partials/header/header";
 @use "partials/footer";
 @use "partials/images";
 @use "partials/tables";
 @use "partials/test";
-@use "partials/technologies";
-@use "partials/technology";
+@use "partials/landingpage";
+@use "partials/singlepage";
 @use "partials/responsive/responsive";
