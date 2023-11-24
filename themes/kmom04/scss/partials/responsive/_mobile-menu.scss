@@ -60,6 +60,6 @@
 
     // no underline for mobile menu
     .nav li a:hover {
-        border: unset;
+        border-bottom: 4px solid transparent;
     }
 }

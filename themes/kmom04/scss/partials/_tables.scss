@@ -21,5 +21,16 @@ table {
     td {
         padding: calc(var.$baseline / 2);
     }
+}
+
+.color-table {
+    border-spacing: 4px;
+    border-collapse: separate;
+    width: fit-content;
+
+    td {
+        height: 50px;
+        width: 50px;
+    }
 
 }

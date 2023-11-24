@@ -26,42 +26,65 @@ Berätta kort om din "metod", hur du gör för att utföra undersökningen. Ber�
 
 Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
 
+#### Vinberga Vinkiosk
+
 ![Vinberga Vinkiosk](%assets_url%/img/vinberga.png) {.screenshot}
-<table class="color-table" style="border-spacing: 4px; border-collapse: separate">
+
+<table class="color-table">
     <tr>
-        <td style="height: 50px; width: 50px; background-color: #6d7e8c;">
-        <td style="height: 50px; width: 50px; background-color: #445664;">
-        <td style="height: 50px; width: 50px; background-color: #d9ae63;">
+        <td style="background-color: #232F38;">
+        <td style="background-color: #445664;">
+        <td style="background-color: #D9AE63;">
     </tr>
 </table>
+
+Skärmdump och färgpalett från Vinberga Vinkiosks hemsida visar ett komplementärt färgschema, med en lugn, dov blå som primär färg, och en mer mättad, livlig gul som  komplementär färg. En mörkare variant av blå och gul förekommer också, samt vit för text.
+Känslan blir lugn, kvalitativ, hantverksmässig och klassisk, med hjälp av den blå färgen och det skrivmaskinlika typsnittet (Courier New), samt lagom livlig och aptitretande (gula färgklickar), vilket rimmar bra med restaurangens profil.
+
+#### Antonios
+
 
 ![Antonios](%assets_url%/img/antonios.png) {.screenshot}
-<table class="color-table" style="border-spacing: 4px; border-collapse: separate">
+<table class="color-table">
     <tr>
-        <td style="height: 50px; width: 50px; background-color: #004a6e;">
-        <td style="height: 50px; width: 50px; background-color: #005783;">
-        <td style="height: 50px; width: 50px; background-color: #005a87;">
-        <td style="height: 50px; width: 50px; background-color: #fcb900;">
-        <td style="height: 50px; width: 50px; background-color: #80352c;">
-        <td style="height: 50px; width: 50px; background-color: #e6d7d5;">
-        <td style="height: 50px; width: 50px; background-color: #ecebe1;">
+        <td style="background-color: #004a6e;">
+        <td style="background-color: #005783;">
+        <td style="background-color: #005a87;">
+        <td style="background-color: #EBC66C;">
+        <td style="background-color: #8D352C;">
+        <td style="background-color: #E3BBBA;">
+        <td style="background-color: #E6D7D5;">
+        <td style="background-color: #ecebe1;">
     </tr>
 </table>
+
+
+Restaurang Antonios hemsida har ett tertiärt färgschema, med halvdova blåa toner för meny och text, ett spektrum av röda färger för footer, och en senapsgul inramning. Vitt och grått används även flitigt som bakgrunder.
+Känslan i de kontrasterande färgerna, det höga stotliga rubriktypsnittet (nobel-condensed), den blåa texten på grågul bakgrund och den djärvt färgsatta footern, ger ett modernt, design-medvetet intryck, som leder tankarna till hav (blå, sandfärgad) och italien, vilket stämmer bra med restaurangens profil.
+
+#### Biobaren
 
 ![Biobaren](%assets_url%/img/biobaren.png) {.screenshot}
-<table class="color-table" style="border-spacing: 4px; border-collapse: separate">
+<table class="color-table">
     <tr>
-        <td style="height: 50px; width: 50px; background-color: #000;">
-        <td style="height: 50px; width: 50px; background-color: #fff;">
-        <td style="height: 50px; width: 50px; background-color: #dfb50c;">
+        <td style="background-color: #000;">
+        <td style="background-color: #fff;">
+        <td style="background-color: #B86927;">
+        <td style="background-color: #CC8D2F;">
+        <td style="background-color: #dfb50c;">
+        <td style="background-color: #6A881E;">
     </tr>
 </table>
 
+Biobaren har i grunden ett monokromatiskt svart-vit 'dark theme', men använder en ganska mättad, färgsprakande gul som accentfärg för knappar, och liknande härliga gula toner från ost, bröd och pommes frites i bakgrundsbilden, vilken nästan skapar ett analogt färgschema i sig, med gula och även gröna toner.
+Stämningen präglas av det mörka temat, vilket förstärks av att bilden ser ut att vara tagen på kvällen. Det rustika och enkla typsnittet (Raleway), som används för både rubriker och brödtext, och kvälls-stämmningen passar bra med konceptet som tydligt framgår i versaler (BURGARE OCH BÄRS!). 
+
+#### Typsnitt
 
 | Webbplats             | Rubriker             | Brödtext              |
 |-----------------------|----------------------|-----------------------|
 | Vinberga Vinkiosk     | Courier New, monospace | Courier New, monospace |
-| Antonios              | Roboto, nobel, nobel-condensed, sans-serif | chaparral-pro, serif |
+| Antonios              | nobel, nobel-condensed, sans-serif | chaparral-pro, serif |
 | Biobaren              | Raleway, sans-serif  | Raleway, sans-serif   |
 
 ### Analys
