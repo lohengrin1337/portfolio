@@ -58,3 +58,14 @@ p + h2 {
 ol + h2 {
     margin-top: calc(var.$baseline * 2);
 }
+
+// reference [*]
+sup.ref {
+    &::before {
+        content: "[";
+    }
+
+    &::after {
+        content: "]";
+    }
+}

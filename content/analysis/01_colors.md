@@ -7,24 +7,18 @@ Template: single_analysis
 %meta.title%
 -----------------------
 
-Skriv en eller två rader om vad uppgiften handlar om.
-
 I den här rapporten ska jag välja ut tre webbplatser, undersöka dess val av färg och typsnitt, samt analysera resultatet i relation till vilken upplevd känsla innehållet skapar.
 
 ### Urval
-
-Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.
 
 Jag väljer att titta på hemsidor för tre populära lokala restauranger i Karlskrona. Urvalet blir avgränsat till något som är relaterbart för mig själv, och webbplatsernas syften och storlek är jämförbara.
 Jag använder [Tripadvisor][1], och väljer tre restauranger jag väl känner till, bland de tio med högst betyg.
 
 ### Metod
 
-Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.
+Jag identifierade ett antal olika färger, och plockade ut färgkoderna (hexadeciamal) med hjälp av tillägget 'chroma' i chrome, samt i något fall med hjälp av utveklarverktyget (till exempel för att se färgändring vid :hover). Typsnitt för h1-h3-element, samt p-element läste jag av med hjälp av utvecklarverktyget (computed font-family).
 
 ### Resultat
-
-Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
 
 #### Vinberga Vinkiosk
 
@@ -38,11 +32,11 @@ Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka
     </tr>
 </table>
 
-Skärmdump och färgpalett från Vinberga Vinkiosks hemsida visar ett komplementärt färgschema, med en lugn, dov blå som primär färg, och en mer mättad, livlig gul som  komplementär färg. En mörkare variant av blå och gul förekommer också, samt vit för text.
+Skärmdump och färgpalett från Vinberga Vinkiosks hemsida visar ett komplementärt färgschema, med en lugn, dov blå som primärfärg, och en mer mättad, livlig gul som  komplementärfärg. En mörkare variant av blå och gul förekommer också, samt vit för text.
 Känslan blir lugn, kvalitativ, hantverksmässig och klassisk, med hjälp av den blå färgen och det skrivmaskinlika typsnittet (Courier New), samt lagom livlig och aptitretande (gula färgklickar), vilket rimmar bra med restaurangens profil.
 
-#### Antonios
 
+#### Antonios
 
 ![Antonios](%assets_url%/img/antonios.png) {.screenshot}
 <table class="color-table">
@@ -57,7 +51,6 @@ Känslan blir lugn, kvalitativ, hantverksmässig och klassisk, med hjälp av den
         <td style="background-color: #ecebe1;">
     </tr>
 </table>
-
 
 Restaurang Antonios hemsida har ett tertiärt färgschema, med halvdova blåa toner för meny och text, ett spektrum av röda färger för footer, och en senapsgul inramning. Vitt och grått används även flitigt som bakgrunder.
 Känslan i de kontrasterande färgerna, det höga stotliga rubriktypsnittet (nobel-condensed), den blåa texten på grågul bakgrund och den djärvt färgsatta footern, ger ett modernt, design-medvetet intryck, som leder tankarna till hav (blå, sandfärgad) och italien, vilket stämmer bra med restaurangens profil.
@@ -89,15 +82,16 @@ Stämningen präglas av det mörka temat, vilket förstärks av att bilden ser u
 
 ### Analys
 
-Diskutera och analysera de resultaten du fann.
+Ett genomgående tema för de tre olika restaurangerna är att färgen gul förekommer. Enligt *The Principles of Beautiful Web Design*<sup class="ref">1</sup> är färgen gul (och orange) stimulerande för aptiten, vilket passar bra i sammanhanget. Det blir särskilt tydligt i fallet med biobaren, där den färgsprakande bakgrundsbilden verkligen får det att vattnas i munnen.
+Biobaren och Vinkiosken har valt mörkare färgtoner, vilket leder sinnestämmningen mer mot kväll. Kanske har Antonos valt ett ljusare tema för att även locka gäster på en lunch? 
 
+Jag tycker alla tre restaurangerna har lyckats väl med att spegla den profil de har i verkligheten, och de inbjuder till ett besök!
 ### Referenser
 
-Ange de eventuella referenser du använder dig av, om några.
+1.  Beaird, Jason; Walker, Alex; George, James. The Principles of Beautiful Web Design. 4th Edition. Kap. 2.
 
 ### Övrigt
 
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
-
+Olof Jönsson (oljn22)
 
 [1]: https://www.tripadvisor.se/FindRestaurants?geo=189843&establishmentTypes=10591&broadened=true "Restauranger i Karlskrona"
