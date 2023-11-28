@@ -12,12 +12,11 @@ body {
 .body {
     display: flex;
     flex-direction: column;
-    // background-color: var.$background-color;
     @include mix.gradient-3-shades(
         to right,
-        var.$color-primary-2,
-        var.$white,
-        var.$color-primary-2
+        var.$background-color-body-1,
+        var.$background-color-body-2,
+        var.$background-color-body-1
     );
 }
 
@@ -28,7 +27,7 @@ body {
     margin: 0 auto;
     padding: var.$baseline;
 
-    background-color: var.$white;
+    background-color: var.$background-color-main;
     border-radius: 5px;
 }
 
@@ -37,10 +36,10 @@ body {
     flex: 0 1 auto;
     @include mix.gradient-3-shades(
         135deg,
-        var.$color-complement-3,
-        var.$color-complement-2,
-        var.$color-complement-3
+        var.$background-color-header-footer-1,
+        var.$background-color-header-footer-2,
+        var.$background-color-header-footer-1
     );
-    
+
     border-radius: 5px;
 }
