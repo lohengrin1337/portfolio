@@ -1,0 +1,38 @@
+@use "../variables" as var;
+
+@media (max-width: 560px) {
+    //site header and footer
+
+    .header {
+        padding: calc(var.$baseline / 2);
+    }
+
+    .footer {
+        padding: var.$baseline;
+    }
+
+    .title,
+    .logo {
+        padding-right: 0;
+    }
+
+    .title {
+        min-width: 50%;
+
+        h1 {
+            letter-spacing: 0;
+        }
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+// logo img
+
+@media (max-width: 380px) {
+    .logo img {
+        display: none;
+    }
+}

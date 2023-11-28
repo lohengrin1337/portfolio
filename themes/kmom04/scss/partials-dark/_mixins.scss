@@ -1,0 +1,31 @@
+@use "variables" as var;
+
+// base grid with standard gap
+@mixin grid() {
+    display: grid;
+    gap: var.$baseline;
+}
+
+// gradient with 3 colors, and middle color takes 80%
+@mixin gradient-3-shades($deg, $col1, $col2, $col3) {
+    background-image: linear-gradient($deg, $col1, 10%, $col2, 90%,$col3);
+}
+
+
+// Part of text is hidden due to a smaller container
+// @mixin intro() {
+//     text-overflow: ellipsis;
+//     // white-space: nowrap;
+//     overflow: hidden;
+
+//     h2 {
+//         display: none;
+//     }
+
+//     p {
+//         font-size: 80%;
+//         line-height: 1.2;
+//         margin: 0;
+//         font-style: italic;
+//     }
+// }

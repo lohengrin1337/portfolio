@@ -1,0 +1,71 @@
+// TYPOGRAPHY
+
+@forward "fonts";
+@forward "code";
+@forward "blockquotes";
+
+@use "../variables" as var;
+@use 'sass:math';
+
+.body {
+    font-family: var.$main-sans;
+    line-height: 1.4;
+    color: var.$font-color;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: var.$baseline;
+    letter-spacing: 0.05em;
+}
+
+%headers {
+    font-family: var.$header-font;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin: 0;
+}
+
+h1 {
+    font-size: calc(1rem * math.pow(var.$scale-factor, 4));
+}
+
+h2 {
+    @extend %headers;
+    margin-bottom: var.$baseline;
+    font-size: calc(1rem * math.pow(var.$scale-factor, 3));
+}
+
+h3{
+    @extend %headers;
+    margin: 0;
+    font-size: calc(1rem * math.pow(var.$scale-factor, 2));
+    font-weight: 600;
+}
+
+h4{
+    @extend %headers;
+    margin: 0;
+    font-size: calc(1rem * var.$scale-factor);
+    font-weight: 600;
+}
+
+p + h2 {
+    margin-top: calc(var.$baseline * 2);
+}
+
+ol + h2 {
+    margin-top: calc(var.$baseline * 2);
+}
+
+// reference [*]
+.ref {
+    &::before {
+        content: "[";
+    }
+
+    &::after {
+        content: "]";
+    }
+}

@@ -1,0 +1,39 @@
+@use "variables" as var;
+
+.single-page {
+    flex: 1 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    .main {
+        flex: 0 1 650px;
+    }
+
+    .sidebar {
+        flex: 1 0 140px;
+        text-align: left;
+        border-left: 1px solid var.$color-primary-2;
+        padding: var.$baseline;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .sidebar a {
+        display: inline-block;
+        text-decoration: none;
+        color: var.$font-color;
+        font-weight: bold;
+        padding-top: var.$baseline;
+        border-bottom: 2px solid transparent;
+    }
+
+    .sidebar a:hover {
+        border-bottom: 2px solid var.$color-primary-3;
+    }
+}

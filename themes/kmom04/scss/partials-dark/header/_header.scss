@@ -1,0 +1,22 @@
+/* Header */
+
+@forward "title";
+@forward "navigation";
+
+@use "../variables" as var;
+
+%flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    @extend %flex;
+    padding: var.$baseline;
+    font-family: var.$alternate-font;
+    border-bottom: 3px solid var.$color-complement-3;
+}
+
+.site-header {
+    @extend %flex;
+}

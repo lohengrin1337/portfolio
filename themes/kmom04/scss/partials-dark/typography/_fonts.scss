@@ -1,0 +1,54 @@
+// FONTS
+
+// Font Awesome
+@import '../../../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../../../shared/fontawesome/scss/brands';
+@import '../../../../shared/fontawesome/scss/solid';
+@import '../../../../shared/fontawesome/scss/regular';
+
+
+// Google fonts
+// @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Lora:wght@600;700&display=swap');
+
+
+// self hosted fonts
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('../../../assets/fonts/montserrat-alt/montserratalternates-thin-webfont.eot');
+    src: url('../../../assets/fonts/montserrat-alt/montserratalternates-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-thin-webfont.woff2') format('woff2'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-thin-webfont.woff') format('woff'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-thin-webfont.ttf') format('truetype'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-thin-webfont.svg#montserrat_alternatesthin') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('../../../assets/fonts/montserrat-alt/montserratalternates-italic-webfont.eot');
+    src: url('../../../assets/fonts/montserrat-alt/montserratalternates-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-italic-webfont.woff2') format('woff2'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-italic-webfont.woff') format('woff'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-italic-webfont.ttf') format('truetype'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-italic-webfont.svg#montserrat_alternatesitalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('../../../assets/fonts/montserrat-alt/montserratalternates-semibold-webfont.eot');
+    src: url('../../../assets/fonts/montserrat-alt/montserratalternates-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-semibold-webfont.woff2') format('woff2'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-semibold-webfont.woff') format('woff'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-semibold-webfont.ttf') format('truetype'),
+    url('../../../assets/fonts/montserrat-alt/montserratalternates-semibold-webfont.svg#montserrat_alternatessemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

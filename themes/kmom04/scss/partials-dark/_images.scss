@@ -1,0 +1,22 @@
+/* Images */
+
+@use "variables" as var;
+
+.img {
+    max-width: 100%;
+}
+
+.profile {
+    float: left;
+    margin: 0 var.$baseline var.$baseline 0;
+    height: calc(var.$baseline * 11);
+}
+
+.design-process {
+    max-height: calc(var.$baseline * 13);
+    margin: auto;
+}
+
+.screenshot {
+    max-height: calc(var.$baseline * 15 )
+}

@@ -1,0 +1,53 @@
+// DARK-THEME-VARIABLES
+
+// COLORS
+
+//Primary
+$color-primary-0: #8B8BDD;	// Main Primary color */
+$color-primary-1: #E6E6FF;
+$color-primary-2: #B5B5EF;
+$color-primary-3: #6666C6;
+$color-primary-4: #4747AC;
+
+// Complementary
+$color-complement-0: #FFE390;	// Main Complement color */
+$color-complement-1: #FFF7E1;
+$color-complement-2: #FFEDB7;
+$color-complement-3: #FFDB6D;
+$color-complement-4: #F5CB4B;
+
+// Greys
+$grey-0: #808280;	// Main Primary color */
+$grey-1: #CDCECD;
+$grey-2: #A2A4A2;
+$grey-3: #626362;
+$grey-4: #3E403E;
+
+$black: #000;
+$white: #fff;
+
+
+$font-color: $grey-4;
+$font-alternative-color: $white;
+$accent-color: $color-complement-0;
+$accent-alternative-color: $color-complement-1;
+$background-color-body-1: $color-primary-2;
+$background-color-body-2: $white;
+$background-color-header-footer-1: $color-complement-3;
+$background-color-header-footer-2: $color-complement-2;
+$background-color-main: $white;
+
+// FONTS
+$main-serif: 'Baskervville', serif;
+$main-sans: 'Lato', sans-serif;
+$header-font: 'Lora', serif;
+$alternate-font: 'Montserrat Alternates', sans-serif;
+
+
+// baseline
+$baseline: 1.4rem;
+
+
+// size scaling
+$scale-factor: 1.2;
+$scale-factor-mobile: 1.15;

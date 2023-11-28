@@ -1,0 +1,26 @@
+/* Footer */
+
+@use "variables" as var;
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var.$baseline;
+    border-top: 3px solid var.$color-complement-3;
+
+    padding: calc(var.$baseline * 2);
+
+    font-family: var.$alternate-font;
+    font-weight: 300;
+    font-style: normal;
+
+
+    .social {
+        font-size: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
