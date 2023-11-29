@@ -4,7 +4,7 @@
 
 .nav {
     a {
-        color: var.$black;
+        color: var.$font-color;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 600;
@@ -13,7 +13,8 @@
 
     }
 
+    .active,
     a:hover {
-        border-bottom: 4px solid var.$color-complement-4;
+        border-bottom: 4px solid var.$border-color-nav-1;
     }
 }

@@ -1,39 +1,53 @@
 // COLORS
 
-//Primary
-$color-primary-0: #8B8BDD;	// Main Primary color */
+@use "sass:color";
+
+// Primary purple
+$color-primary-0: #8B8BDD;
 $color-primary-1: #E6E6FF;
 $color-primary-2: #B5B5EF;
 $color-primary-3: #6666C6;
 $color-primary-4: #4747AC;
 
-// Complementary
-$color-complement-0: #FFE390;	// Main Complement color */
+// Complementary yellow
+$color-complement-0: #FFE390;
 $color-complement-1: #FFF7E1;
 $color-complement-2: #FFEDB7;
 $color-complement-3: #FFDB6D;
 $color-complement-4: #F5CB4B;
 
-// Greys
-$grey-0: #808280;	// Main Primary color */
-$grey-1: #CDCECD;
-$grey-2: #A2A4A2;
-$grey-3: #626362;
-$grey-4: #3E403E;
+// Dark mode / greys with touch of blue
+$color-grey-0: #80808A; // middle grey
+$color-grey-1: #F8F8FB; // almost white
+$color-grey-2: #A1A1A7;
+$color-grey-3: #636371;
+$color-grey-4: #191923; // almost black
 
-$black: #000;
-$white: #fff;
+$color-blue: #0074D9;
 
+$fill-color-1: $color-primary-1;
+$fill-color-2: $color-primary-2;
+$fill-color-3: $color-complement-1;
+$fill-color-4: $color-complement-2;
 
-$font-color: $grey-4;
-$font-alternative-color: $white;
-$accent-color: $color-complement-0;
-$accent-alternative-color: $color-complement-1;
+$font-color: $color-grey-4;
+$accent-color: $color-complement-3;
+$accent-alternative-color: $color-primary-2;
 $background-color-body-1: $color-primary-2;
-$background-color-body-2: $white;
+$background-color-body-2: $color-grey-1;
 $background-color-header-footer-1: $color-complement-3;
 $background-color-header-footer-2: $color-complement-2;
-$background-color-main: $white;
+$background-color-main: $color-grey-1;
+$background-color-table-1: $color-grey-0;
+$background-color-table-2: $fill-color-1;
+$background-color-code: color.scale($color-grey-1, $lightness: -5%);
+
+$border-color-soft: $color-complement-0;
+$border-color-nav-1: $color-complement-4;
+$border-color-nav-2: $color-primary-3;
+
+$link-color: color.scale($color-blue, $lightness: -40%);
+
 
 // FONTS
 $main-serif: 'Baskervville', serif;

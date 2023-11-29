@@ -14,7 +14,7 @@
     @extend %flex;
     padding: var.$baseline;
     font-family: var.$alternate-font;
-    border-bottom: 3px solid var.$color-complement-3;
+    border-bottom: 3px solid var.$accent-color;
 }
 
 .site-header {

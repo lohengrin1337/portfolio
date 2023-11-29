@@ -15,7 +15,7 @@
     .sidebar {
         flex: 1 0 140px;
         text-align: left;
-        border-left: 1px solid var.$color-primary-2;
+        border-left: 1px solid var.$accent-alternative-color;
         padding: var.$baseline;
     }
 
@@ -32,8 +32,9 @@
         padding-top: var.$baseline;
         border-bottom: 2px solid transparent;
     }
-
+    
+    .sidebar .active,
     .sidebar a:hover {
-        border-bottom: 2px solid var.$color-primary-3;
+        border-bottom: 2px solid var.$border-color-nav-2;
     }
 }

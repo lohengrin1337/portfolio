@@ -59,6 +59,10 @@ ol + h2 {
     margin-top: calc(var.$baseline * 2);
 }
 
+h3 + h4 {
+    margin-top: var.$baseline;
+}
+
 // reference [*]
 .ref {
     &::before {
@@ -69,3 +73,17 @@ ol + h2 {
         content: "]";
     }
 }
+
+// font awesome icon color (only works for hamburger menu...)
+.fa {
+    color: var.$font-color;
+}
+
+// link colors in text
+.main {
+    a,
+    a:visited {
+        color: var.$link-color;
+    }
+}
+

@@ -3,10 +3,10 @@
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: var.$baseline 0;
+    margin-bottom: var.$baseline;
 
     tbody tr:nth-child(2n + 1) {
-        background-color: var.$color-complement-1;
+        background-color: var.$background-color-table-2;
     }
 
     th {
@@ -14,7 +14,7 @@ table {
     }
 
     td {
-        border-top: 1px solid var.$color-complement-2;
+        border-top: 1px solid var.$border-color-soft;
     }
 
     th,
@@ -25,7 +25,8 @@ table {
 
 .color-table {
     padding: var.$baseline;
-    background-color: var.$grey-0;
+    background-color: var.$background-color-table-1;
+    border: 0;
     border-radius: 5px;
 
     border-spacing: 4px;

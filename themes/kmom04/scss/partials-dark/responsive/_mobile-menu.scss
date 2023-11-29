@@ -1,3 +1,5 @@
+@use "../variables" as var;
+
 .hidden {
     display: none !important;
 }
@@ -19,7 +21,7 @@
 }
 
 .nav a, .nav-toggle {
-    color: #000;
+    color: var.$font-color;
 }
 
 .nav-toggle {
@@ -59,7 +61,8 @@
     }
 
     // no underline for mobile menu
-    .nav li a:hover {
+    .nav .active,
+    .nav a:hover {
         border-bottom: 4px solid transparent;
     }
 }

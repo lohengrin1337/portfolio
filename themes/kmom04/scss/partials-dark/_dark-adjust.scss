@@ -1,0 +1,8 @@
+@use "variables" as var;
+
+// DARK THEME ADJUSTMENTS
+
+// lower brightness on images - keeping contrast to preserve colors 
+img {
+    filter: brightness(.85);
+}
