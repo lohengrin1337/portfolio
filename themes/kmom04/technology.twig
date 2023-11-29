@@ -11,7 +11,8 @@
             <h4>Teknologier</h4>
             <ul>
                 {% for page in pages("technology") if not page.hidden %}
-                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                    <li><a {% if page.id==current_page.id %} class="active" {% endif %}
+                        href="{{ page.url }}">{{ page.title }}</a></li>
                 {% endfor %}
             </ul>
         </aside>
