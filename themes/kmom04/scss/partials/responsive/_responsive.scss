@@ -5,3 +5,8 @@
 @forward "site-header";
 @forward "images";
 @forward "technologies";
+@forward "gallery";
+
+img, embed, object, video {
+    max-width: 100%;
+}

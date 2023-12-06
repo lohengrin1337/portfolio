@@ -20,3 +20,19 @@
 .screenshot {
     max-height: calc(var.$baseline * 15 )
 }
+
+.screenshot-container {
+    width: 100%;
+    margin: var.$baseline 0;
+
+    figcaption {
+        padding-top: calc(var.$baseline / 2);
+    }
+
+    a,
+    a:visited {
+        color: var.$font-color;
+        text-decoration: none;
+        font-style: italic;
+    }
+}
