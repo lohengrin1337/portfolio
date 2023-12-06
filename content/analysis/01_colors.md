@@ -82,7 +82,7 @@ Stämningen präglas av det mörka temat, vilket förstärks av att bilden ser u
 
 ### Analys
 
-Ett genomgående tema för de tre olika restaurangerna är att färgen gul förekommer. Enligt *The Principles of Beautiful Web Design*<sup class="ref">1</sup> är färgen gul (och orange) stimulerande för aptiten, vilket passar bra i sammanhanget. Det blir särskilt tydligt i fallet med biobaren, där den färgsprakande bakgrundsbilden verkligen får det att vattnas i munnen.
+Ett genomgående tema för de tre olika restaurangerna är att färgen gul förekommer. Enligt *The Principles of Beautiful Web Design*<span class="ref"><sup>1</sup></span> är färgen gul (och orange) stimulerande för aptiten, vilket passar bra i sammanhanget. Det blir särskilt tydligt i fallet med biobaren, där den färgsprakande bakgrundsbilden verkligen får det att vattnas i munnen.
 Biobaren och Vinkiosken har valt mörkare färgtoner, vilket leder sinnestämmningen mer mot kväll. Kanske har Antonos valt ett ljusare tema för att även locka gäster på en lunch? 
 
 Jag tycker alla tre restaurangerna har lyckats väl med att spegla den profil de har i verkligheten, och de inbjuder till ett besök!
