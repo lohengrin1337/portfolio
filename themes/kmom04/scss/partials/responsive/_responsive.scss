@@ -1,10 +1,13 @@
 // RESPONSIVE
 
+@forward "base";
 @forward "mobile-menu";
 @forward "headings";
 @forward "site-header";
+@forward "backgrounds";
 @forward "images";
-@forward "technologies";
+@forward "singlepage";
+@forward "landingpage";
 @forward "gallery";
 
 img, embed, object, video {

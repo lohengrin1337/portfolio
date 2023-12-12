@@ -22,7 +22,6 @@ p {
 
 %headers {
     font-family: var.$header-font;
-    font-weight: 700;
     letter-spacing: 0.08em;
     margin: 0;
 }
@@ -35,28 +34,38 @@ h2 {
     @extend %headers;
     margin-bottom: var.$baseline;
     font-size: calc(1rem * math.pow(var.$scale-factor, 3));
+    font-weight: 400;
 }
 
 h3{
     @extend %headers;
+    margin-bottom: var.$baseline;
     margin: 0;
     font-size: calc(1rem * math.pow(var.$scale-factor, 2));
-    font-weight: 600;
+    font-weight: 400;
 }
 
 h4{
     @extend %headers;
     margin: 0;
     font-size: calc(1rem * var.$scale-factor);
-    font-weight: 600;
+    font-weight: 500;
 }
 
-p + h2 {
-    margin-top: calc(var.$baseline * 2);
+* + h2 {
+    margin-top: var.$baseline-x4;
 }
 
-ol + h2 {
-    margin-top: calc(var.$baseline * 2);
+* + h3 {
+    margin-top: var.$baseline-x2;
+}
+
+h2 + h3 {
+    margin-top: var.$baseline;
+}
+
+* + h4 {
+    margin-top: var.$baseline-x2;
 }
 
 h3 + h4 {
@@ -64,7 +73,7 @@ h3 + h4 {
 }
 
 // reference [*]
-.ref {
+.ref sup {
     &::before {
         content: "[";
     }
@@ -86,4 +95,3 @@ h3 + h4 {
         color: var.$link-color;
     }
 }
-

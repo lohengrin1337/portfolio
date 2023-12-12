@@ -2,21 +2,22 @@
 
 .single-page {
     flex: 1 0 auto;
-    display: flex;
     width: 100%;
-    max-width: 900px;
+    max-width: 1100px;
+
+    display: flex;
     margin: 0 auto;
     border-radius: 10px;
 
     .main {
-        flex: 0 1 650px;
+        flex: 0 1 750px;
     }
 
     .sidebar {
-        flex: 1 0 140px;
+        flex: 1 0 240px;
         text-align: left;
         border-left: 1px solid var.$accent-alternative-color;
-        padding: var.$baseline;
+        padding: var.$baseline-x2 var.$baseline-x4;
     }
 
     .sidebar ul {

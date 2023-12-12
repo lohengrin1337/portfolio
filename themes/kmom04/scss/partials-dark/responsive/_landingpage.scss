@@ -1,7 +1,5 @@
 @use "../variables" as var;
 
-// technologies
-
 @media (max-width: 430px) {
     .landingpage {
         grid-template-columns: 1fr;
@@ -18,16 +16,6 @@
 
         > * {
             grid-column: span 1 !important;
-        }
-    }
-}
-
-// technology
-
-@media (max-width: 600px) {
-    .single-page {
-        .sidebar {
-            display: none;
         }
     }
 }

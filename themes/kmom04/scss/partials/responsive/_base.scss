@@ -1,0 +1,7 @@
+@use "../variables" as var;
+
+@media (max-width: 750px) {
+    .main {
+        padding: var.$baseline;
+    }
+}

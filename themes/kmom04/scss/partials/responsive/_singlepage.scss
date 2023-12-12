@@ -1,0 +1,30 @@
+@use "../variables" as var;
+
+@media (max-width: 1100px) {
+    .single-page {
+
+        .main {
+            padding: var.$baseline-x2;
+        }
+
+        .sidebar {
+            padding: var.$baseline-x2;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .single-page {
+        .sidebar {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .single-page {
+        .main {
+            padding: var.$baseline;
+        }
+    }
+}

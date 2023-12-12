@@ -1,0 +1,29 @@
+.hobby {
+
+
+    background: url("../../../image/backgrounds/disc-dog.jpg?w=750&h=750&crop-to-fit&q=70&area=5,20,0,0&sc=yellow") no-repeat;
+    // opacity: 0.5;
+    // position: relative;
+    // filter: brightness(.5);
+
+
+    // &::before {
+    //     content: '';
+    //     position: absolute;
+    //     top: 0;
+    //     right: 0;
+    //     bottom: 0;
+    //     left: 0;
+    //     background-color: rgba(255, 255, 255, 0.5); // Adjust the color and transparency as needed
+    // }
+
+
+    .content {
+        background-color: var.$background-color-main;
+        opacity: 0.9;
+        padding: var.$baseline;
+        margin: - var.$baseline;
+        border-radius: 5px;
+        border: 5px solid var.$border-color-soft-2; 
+    }
+}

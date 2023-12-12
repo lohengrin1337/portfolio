@@ -23,9 +23,9 @@ body {
 .main {
     flex: 1 0 auto;
     width: 100%;
-    max-width: 650px;
+    max-width: 750px;
     margin: 0 auto;
-    padding: var.$baseline;
+    padding: var.$baseline-x2 var.$baseline-x4;
 
     background-color: var.$background-color-main;
     border-radius: 5px;
