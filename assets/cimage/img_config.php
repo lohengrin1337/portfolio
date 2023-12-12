@@ -7,7 +7,8 @@ return [
     "autoloader"   =>  __DIR__ . "/../../vendor/autoload.php",
     "windows2wsl"  => true,
     "shortcut" => array(
-        "sepia" =>"&f=grayscale&f0=brightness,-10&f1=contrast,-20&f2=colorize,120,60,0,0&sharpen",
+        "sepia" =>"&f=grayscale&f0=brightness, -10&f1=contrast,-20&f2=colorize,120,60,0,0&sharpen",
+        "yellow" =>"&f=grayscale&f0=brightness, 20&f1=contrast,-40&f2=colorize,35,35,0,0&f3=gaussian_blur",
         "portrait" => "&w=440&crop-to-fit&aspect-ratio=!4:3&q=70&sharpen",
         "square-sm" => "&w=230&h=230&crop-to-fit&q=70&sharpen",
         "square-lg" => "&w=300&h=300&crop-to-fit&q=70&sharpen",
