@@ -20,6 +20,6 @@ Analyser
 
 <div class="box">
     <a class="block-link" href="%base_url%?analysis/03_design_principles" title="Designprincipanalys">
-        <h3>DESIGNPRINCIPER</h3>
+        <h3>DESIGN PRINCIPER</h3>
     </a>
 </div>
