@@ -3,8 +3,10 @@
 <body class="body">
     {% include 'incl/nav.twig' %}
 
-    <main class="main" role="main">
-        {{ content }}
+    <main class="main {{ meta.classnames }}" role="main">
+        <div class="content">
+            {{ content }}
+        </div>
     </main>
     
     {% include 'incl/footer.twig' %}

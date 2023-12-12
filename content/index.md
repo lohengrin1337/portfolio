@@ -1,6 +1,7 @@
 ---
 Title: Home
 Description: Home page of portfolio
+classnames: home bg-img 
 ---
 
 ## Om mig

@@ -263,6 +263,7 @@ Galleri
     <iframe
         src="https://www.youtube.com/embed/xwEFWS7gMxs?si=-FGX_jBDo3FhxAvD&amp;start=214"
         frameborder="0"
-        allowfullscreen>
+        allowfullscreen
+        title="Youtube-video of slomo disc golf throws">
     </iframe>
 </div>

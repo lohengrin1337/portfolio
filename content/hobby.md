@@ -1,6 +1,7 @@
 ---
 Title: Hobby
 Description: En presentation av min hobby - Discgolf
+classnames: hobby bg-img
 ---
 
 Min Hobby
