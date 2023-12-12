@@ -79,39 +79,39 @@
 
     .box h3 {
         position: absolute;
-        top: 0px;
+        top: 0;
     }
 
     .box:hover h3 {
         animation: textBounce 1.3s ease-in forwards;
     }
 
-    @keyframes textBounce {
-        14.3%,
-        42.9%,
-        71.5%,
-        100% {
-            top: 20px;
-        }
-
-        28.6% {
-            top: 12px;
-        }
-
-        57.2% {
-            top: 15px;
-        }
-
-        85.8% {
-            top: 18px;
-        }
-    }
-
     // Shadow animation
 
     .box:hover {
-        box-shadow: 0.3rem 0.5rem 0.1rem 0.3rem rgba(0,0,0,0.3);
+        box-shadow: 0.3rem 0.5rem 0.1rem 0.3rem var.$shadow-color;
         transform: translateY(-0.5rem);
         filter: brightness(105%);
+    }
+}
+
+@keyframes textBounce {
+    14.3%,
+    42.9%,
+    71.5%,
+    100% {
+        top: 20px;
+    }
+
+    28.6% {
+        top: 12px;
+    }
+
+    57.2% {
+        top: 15px;
+    }
+
+    85.8% {
+        top: 18px;
     }
 }

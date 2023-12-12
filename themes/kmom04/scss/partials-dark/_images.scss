@@ -10,15 +10,18 @@
     float: left;
     margin: 0 var.$baseline var.$baseline 0;
     height: calc(var.$baseline * 11);
+    border-radius: 5px;
 }
 
-.design-process {
-    max-height: calc(var.$baseline * 13);
-    margin: auto;
-}
+// .design-process {
+//     max-height: calc(var.$baseline * 13);
+//     margin: auto;
+//     border-radius: 5px;
+// }
 
 .screenshot {
-    max-height: calc(var.$baseline * 15 )
+    max-height: calc(var.$baseline * 15 );
+    border-radius: 5px;
 }
 
 .screenshot-container {

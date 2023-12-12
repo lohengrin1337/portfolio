@@ -12,12 +12,12 @@
 .nav ul {
     display: flex;
     justify-content: flex-end;
-    padding: 1em 0;
+    // padding: 1em 0;
     list-style: none;
 }
 
 .nav ul li {
-    padding: 0 1em;
+    padding: 0 5px;
 }
 
 .nav a, .nav-toggle {
@@ -28,7 +28,7 @@
     display: none;
 }
 
-@media (max-width: 1420px) {
+@media (max-width: 1300px) {
     .header {
         flex-direction: column;
     }
@@ -46,7 +46,9 @@
 
     .nav ul li a {
         display: block;
-        padding: 0.5em 0;
+        width: fit-content;
+        align-self: center;
+        margin: 10px 0;
     }
 
     .js .nav-toggle {
@@ -60,9 +62,10 @@
         cursor: pointer;
     }
 
-    // no underline for mobile menu
-    .nav .active,
-    .nav a:hover {
-        border-bottom: 4px solid transparent;
+    .nav {
+        a::before,
+        a::after {
+            height: 3px;
+        }
     }
 }

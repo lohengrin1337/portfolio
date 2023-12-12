@@ -3,18 +3,59 @@
 @use "../variables" as var;
 
 .nav {
+
+    margin: var.$baseline 0;
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    
     a {
         color: var.$font-color;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 600;
         font-style: normal;
-        border-bottom: 4px solid transparent;
+        // border-bottom: 4px solid transparent;
+
+        position: relative;
+        padding: 5px;
 
     }
 
-    .active,
-    a:hover {
-        border-bottom: 4px solid var.$border-color-nav-1;
+    // animation effect with pseudo elements
+    a::before,
+    a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: var.$border-color-nav-1;
+        opacity: 0;
+        transition: all 0.3s 0.1s;
+    }
+
+    a::before {
+        top: 0;
+        transform: translateY(-10px);
+    }
+
+    a::after {
+        bottom: 0;
+        transform: translateY(10px);
+    }
+
+    a:hover::before,
+    a:hover::after {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .active::before,
+    .active::after {
+        opacity: 1;
+        transform: translateY(0);
     }
 }

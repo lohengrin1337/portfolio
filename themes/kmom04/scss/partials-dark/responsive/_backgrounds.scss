@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+    .hobby {
+        background: url("../../../image/backgrounds/disc-dog.jpg?w=600&h=700&crop-to-fit&area=0,15,0,0&q=70&sc=yellow") no-repeat fixed center;
+    }
+
+    .home {
+        background: url("../../../image/backgrounds/kid-field.jpg?w=600&h=700&crop-to-fit&q=50&sc=yellow") no-repeat fixed center;
+    }
+
+    .about {
+        background: url("../../../image/backgrounds/web-design.jpg?w=600&h=700&crop-to-fit&area=15,0,0,0&q=70&sc=yellow") no-repeat fixed center;
+    }
+}
+
+@media (max-width: 440px) {
+    .hobby {
+        background: url("../../../image/backgrounds/disc-dog.jpg?w=440&h=700&crop-to-fit&q=70&area=0,10,0,0&sc=yellow") no-repeat fixed center;
+    }
+
+    .home {
+        background: url("../../../image/backgrounds/kid-field.jpg?w=440&h=700&crop-to-fit&q=50&sc=yellow") no-repeat fixed center;
+    }
+
+    .about {
+        background: url("../../../image/backgrounds/web-design.jpg?w=440&h=700&crop-to-fit&q=70&sc=yellow") no-repeat fixed center;
+    }
+}

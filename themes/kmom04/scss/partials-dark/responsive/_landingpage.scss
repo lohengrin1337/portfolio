@@ -9,6 +9,10 @@
             line-height: calc(var.$baseline * 3);
         }
 
+        h3 {
+            font-size: min(4vw, 23px);
+        }
+
         .box {
             height: calc(var.$baseline * 3);
             text-align: center;
