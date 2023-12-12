@@ -18,6 +18,12 @@
         height: calc(var.$baseline * 5);
         padding: var.$baseline;
         border-radius: 10px;
+
+        transition: all .3s ease;
+    }
+
+    h3 {
+        font-size: min(3vw, 23px);
     }
 
     .box:nth-of-type(1) {
@@ -58,11 +64,54 @@
     .block-link {
         display: block;
         height: 100%;
+        width: 100%;
         text-decoration: none;
         color: var.$font-color;
+
+        position: relative;
     }
 
     .block-link:visited {
         color: var.$font-color;
+    }
+
+    // Text animation
+
+    .box h3 {
+        position: absolute;
+        top: 0px;
+    }
+
+    .box:hover h3 {
+        animation: textBounce 1.3s ease-in forwards;
+    }
+
+    @keyframes textBounce {
+        14.3%,
+        42.9%,
+        71.5%,
+        100% {
+            top: 20px;
+        }
+
+        28.6% {
+            top: 12px;
+        }
+
+        57.2% {
+            top: 15px;
+        }
+
+        85.8% {
+            top: 18px;
+        }
+    }
+
+    // Shadow animation
+
+    .box:hover {
+        box-shadow: 0.3rem 0.5rem 0.1rem 0.3rem rgba(0,0,0,0.3);
+        transform: translateY(-0.5rem);
+        filter: brightness(105%);
     }
 }
