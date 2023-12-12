@@ -23,7 +23,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/accordeon.jpg?sc=square-lg"
                 srcset="%base_url%/image/gallery/accordeon.jpg?sc=square-lg&dpr=2 2x"
-                alt="En man som spelar accordeon" />
+                alt="En man som spelar accordeon"/>
         </picture>
     </a>
 </div>
@@ -44,7 +44,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/bagpipe.jpg?sc=square-lg&area=0,10,0,0"
                 srcset="%base_url%/image/gallery/bagpipe.jpg?sc=square-lg&area=0,10,0,0&dpr=2 2x"
-                alt="En man som spelar säckpipa">
+                alt="En man som spelar säckpipa"/>
         </picture>
     </a>
 </div>
@@ -65,7 +65,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/band.jpg?sc=square-lg&area=5,0,0,5"
                 srcset="%base_url%/image/gallery/band.jpg?sc=square-lg&area=5,0,0,5&dpr=2 2x"
-                alt="En grupp musiker på gatan">
+                alt="En grupp musiker på gatan"/>
         </picture>
     </a>
 </div>
@@ -86,7 +86,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/cello.jpg?sc=square-lg"
                 srcset="%base_url%/image/gallery/cello.jpg?sc=square-lg&dpr=2 2x"
-                alt="En som spelar cello">
+                alt="En som spelar cello"/>
         </picture>
     </a>
 </div>
@@ -107,7 +107,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/drums.jpg?sc=square-lg&area=5,5,5,5"
                 srcset="%base_url%/image/gallery/drums.jpg?sc=square-lg&area=5,5,5,5&dpr=2 2x"
-                alt="En grabb som spelar trumset">
+                alt="En grabb som spelar trumset"/>
         </picture>
     </a>
 </div>
@@ -128,7 +128,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/flute.jpg?sc=square-lg&area=10,5,0,5"
                 srcset="%base_url%/image/gallery/flute.jpg?sc=square-lg&area=10,5,0,5&dpr=2 2x"
-                alt="En äldre man som spelar flöjt">
+                alt="En äldre man som spelar flöjt"/>
         </picture>
     </a>
 </div>
@@ -149,7 +149,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/french-horn.jpg?sc=square-lg&area=5,5,5,5"
                 srcset="%base_url%/image/gallery/french-horn.jpg?sc=square-lg&area=5,5,5,5&dpr=2 2x"
-                alt="Ett valthorn">
+                alt="Ett valthorn"/>
         </picture>
     </a>
 </div>
@@ -170,7 +170,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/guitar.jpg?sc=square-lg"
                 srcset="%base_url%/image/gallery/guitar.jpg?sc=square-lg&dpr=2 2x"
-                alt="En gitarr">
+                alt="En gitarr"/>
         </picture>
     </a>
 </div>
@@ -191,7 +191,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/harp.jpg?sc=square-lg"
                 srcset="%base_url%/image/gallery/harp.jpg?sc=square-lg&dpr=2 2x"
-                alt="En harpa">
+                alt="En harpa"/>
         </picture>
     </a>
 </div>
@@ -212,7 +212,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/piano.jpg?sc=square-lg&area=10,0,0,0"
                 srcset="%base_url%/image/gallery/piano.jpg?sc=square-lg&area=10,0,0,0&dpr=2 2x"
-                alt="Ett öppet piano som blir stämmt">
+                alt="Ett öppet piano som blir stämmt"/>
         </picture>
     </a>
 </div>
@@ -233,7 +233,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/saxophone.jpg?sc=square-lg&area=0,15,10,0"
                 srcset="%base_url%/image/gallery/saxophone.jpg?sc=square-lg&area=0,15,10,0&dpr=2 2x"
-                alt="En saxofonist">
+                alt="En saxofonist"/>
         </picture>
     </a>
 </div>
@@ -254,7 +254,7 @@ Galleri
             <img
                 src="%base_url%/image/gallery/violin.jpg?sc=square-lg&area=5,0,5,5"
                 srcset="%base_url%/image/gallery/violin.jpg?sc=square-lg&area=5,0,5,5&dpr=2 2x"
-                alt="En fiol">
+                alt="En fiol"/>
         </picture>
     </a>
 </div>

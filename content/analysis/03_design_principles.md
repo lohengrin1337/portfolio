@@ -68,7 +68,7 @@ En aspekt som sticker ut för mig när jag tittar på webbplatsernas design, är
 
 Jag blev förvånad över hur bra det *mörka temat* fungerade på Annika R Malmbergs sida. Jag upplever att det både blir behagligare för ögat, och skapar ett större intresse för innehållet.
 
-När det gäller designen av portfoliosidan finns det mycket som går att förbättra. Med fokus på små förändringar skulle inslag av **textur**, **djup** och **rörelse** kunna bidra till en mer intressant design. **Hierarki** och **negative space** i **typografin** skulle också kunna få sig ett lyft, så att olika sektioner skiljs bättre åt. Dessa principer siktar jag på att tillämpa.
+När det gäller designen av portfoliosidan finns det mycket som går att förbättra. Med fokus på små förändringar skulle inslag av **djup**, **rörelse** och **inramning** skulle kunna bidra till en mer intressant design. **Hierarki** och **negative space** i **typografin** skulle också kunna få sig ett lyft, så att olika sektioner skiljs bättre åt. Dessa principer siktar jag på att tillämpa.
 
 
 ### Referenser

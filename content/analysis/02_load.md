@@ -27,6 +27,7 @@ Jag väljer ut tre olika sidor på varje webbplats (startsida, kultursida och de
 
 <div class="calc-container">
     <iframe
+    title="Spread sheet with results"
         class="calc-sheet"
         src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMzAoHvpEBVvpez9ev6c4gQYprfu82ylZeB2Pgaom7ATXAQvI38HawONlUy9JPI5-lSBmX8zGjW8GM/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
         frameborder="0">
