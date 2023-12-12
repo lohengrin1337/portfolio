@@ -46,7 +46,9 @@
 
     .nav ul li a {
         display: block;
-        padding: 0.5em 0;
+        width: fit-content;
+        align-self: center;
+        margin: 10px 0;
     }
 
     .js .nav-toggle {
@@ -60,9 +62,10 @@
         cursor: pointer;
     }
 
-    // no underline for mobile menu
-    .nav .active,
-    .nav a:hover {
-        border-bottom: 4px solid transparent;
+    .nav {
+        a:before,
+        a:after {
+            height: 3px;
+        }
     }
 }
