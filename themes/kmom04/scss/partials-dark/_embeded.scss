@@ -22,11 +22,16 @@
 
 .calc-container {
     width: 100%;
+    max-width: 100%;
     height: calc(var.$baseline * 17);
     padding: 5px;
     border: 5px solid var.$color-grey-2;
     margin-top: var.$baseline;
     overflow: hidden;
+}
+
+.calc-2 {
+    height: calc(var.$baseline * 12);
 }
 
 .calc-sheet {
