@@ -14,7 +14,8 @@
     }
 
     .sidebar {
-        flex: 1 0 240px;
+        min-width: 270px;
+        flex: 1 0 auto;
         text-align: left;
         border-left: 1px solid var.$accent-alternative-color;
         padding: var.$baseline-x2 var.$baseline-x4;

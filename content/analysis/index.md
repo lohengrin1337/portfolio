@@ -32,6 +32,6 @@ Analyser
 
 <div class="box">
     <a class="block-link" href="%base_url%?analysis/11_design-och-webbplatser.md" title="Designprincipanalys">
-        <h3>BILD/LADDNING (UPPDRAG 6)</h3>
+        <h3>PRESTANDA (UPPDRAG 6)</h3>
     </a>
 </div>

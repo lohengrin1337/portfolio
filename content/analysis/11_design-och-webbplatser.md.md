@@ -17,7 +17,9 @@ Maxime Jazz hemsida är designad av undertecknad.
 
 ### Metod
 
-Jag gör mätningar på webbplatsens fyra huvudsidor **hem**, **biografi**, **portfolio** och **kontakt**. På varje sida mäts **prestanda** med hjäp av *Google PageSpeed Insights* <span class="ref"><sup>1</sup></span>, både för mobil och desktop. Med hjälp av utvecklarverkyget i *Mozilla Firefox*, under fliken *nätverk*, läser jag av **laddningstid**, **antal resurser** och **sidstorlek** tre gånger, och räknar ut ett medelvärde för dem. Jag laddar om sidan med <code>Ctrl+Shift+R</code>, för att resurser inte ska hämtas från cache-minnet.
+Jag gör mätningar på webbplatsens fyra huvudsidor **hem**, **biografi**, **portfolio** och **kontakt**. På varje sida mäts **prestanda** med hjäp av *Google PageSpeed Insights* <span class="ref"><sup>1</sup></span>, både för mobil och desktop.
+
+Med hjälp av utvecklarverkyget i *Mozilla Firefox*, under fliken *nätverk*, läser jag av **laddningstid**, **antal resurser** och **sidstorlek** tre gånger, och räknar ut ett medelvärde för dem. Jag laddar om sidan med <code>Ctrl+Shift+R</code>, för att resurser inte ska hämtas från cache-minnet.
 
 ### Resultat
 
@@ -59,15 +61,13 @@ Jag gör mätningar på webbplatsens fyra huvudsidor **hem**, **biografi**, **po
 
 ### Analys
 
-Alla fyra sidorna håller en relativt hög nivå vad gäller prestanda både för mobil och desktop, men det finns ett antal små saker som skulle kunna optimeras.
-
-När det gäller att göra uppdelning av css-koden, krävs en ganska omfattande omstrukturering, och tidsvinningen lär vara relativt begränsad i just det här fallet.
+När det gäller att göra uppdelning av css-koden, krävs en hel del omstrukturering, och tidsvinningen lär vara relativt begränsad i just det här fallet.
 
 I en del fall kan det vara bra att förladda bakgrundsbilder, som annars inte börjar laddas förrän css-resursen är tillgänglig. Svårigheten här är att bakgrundsbilderna är responsiva för olika skärmbredder, och det blir inte konstruktivt att förladda en handfull olika bilder, när bara en behövs. Dessutom är bakgrundsbilderna inte en primär del av innehållet, och leder inte till layoutförskjutningar när de renderas.
 
 Bilder hanteras responsivt med hjälp av *Cimage*, där stöd för *WebP* etc saknas.
 
-Samantaget tycker jag prestandan god, med snabb genomsnittlig laddningstid (under en halv sekund), effektiv hantering av bilder, och relativt odramatiska skiftningar i layout.
+Samantaget tycker jag prestandan är god, med snabb genomsnittlig laddningstid (under en halv sekund), effektiv hantering av bilder, och relativt odramatiska skiftningar i layout.
 
 ### Referenser
 
