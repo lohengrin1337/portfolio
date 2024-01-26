@@ -25,11 +25,12 @@ Jag väljer ut tre olika sidor på varje webbplats (startsida, kultursida och de
 
 ### Resultat
 
+
 <div class="calc-container">
     <iframe
     title="Spread sheet with results"
         class="calc-sheet"
-        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMzAoHvpEBVvpez9ev6c4gQYprfu82ylZeB2Pgaom7ATXAQvI38HawONlUy9JPI5-lSBmX8zGjW8GM/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMKJZYR3tGgDN7ktYYGMylk0KhG1LxcL1U6P1FsuaKfYof-3b5GE8FssYeboHiRG9UIa61ePapk4F4/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
         frameborder="0">
     </iframe>
 </div>
@@ -121,6 +122,6 @@ Dagens Nyheter är snabbast, men laddar även in färre resurser. Med Aftonblade
 1. [https://ocast.com/se/toplists/orvesto-internet](https://ocast.com/se/toplists/orvesto-internet), 2023-12-04
 2. [https://pagespeed.web.dev/](https://pagespeed.web.dev/), 2023-12-05
 
-### Övrigt
+### Författare
 
 Olof Jönsson, oljn22

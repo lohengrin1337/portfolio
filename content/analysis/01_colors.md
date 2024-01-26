@@ -90,7 +90,7 @@ Jag tycker alla tre restaurangerna har lyckats väl med att spegla den profil de
 
 1.  Beaird, Jason; Walker, Alex; George, James. The Principles of Beautiful Web Design. 4th Edition. Kap. 2.
 
-### Övrigt
+### Författare
 
 Olof Jönsson (oljn22)
 

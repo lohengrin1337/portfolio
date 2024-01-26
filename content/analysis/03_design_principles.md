@@ -78,6 +78,6 @@ När det gäller designen av portfoliosidan finns det mycket som går att förb�
 3. [Chroma color picker tool](https://chromewebstore.google.com/detail/chroma-eyedropper-color-p/pkgejkfioihnchalojepdkefnpejomgn?hl=sv), 2023-12-09
 4. [Palletton](https://paletton.com/), 2023-12-09
 
-### Övrigt
+### Författare
 
 Olof Jönsson, oljn22

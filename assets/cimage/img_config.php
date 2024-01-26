@@ -13,6 +13,8 @@ return [
         "square-sm" => "&w=230&h=230&crop-to-fit&q=70&sharpen",
         "square-lg" => "&w=300&h=300&crop-to-fit&q=70&sharpen",
         "screenshot-sm" => "&w=440&h=224&crop-to-fit&crop=1200,600,left,top&save-as=jpg",
-        "screenshot-lg" => "&w=610&h=224&crop-to-fit&crop=1200,430,left,top&save-as=jpg"
+        "screenshot-lg" => "&w=610&h=224&crop-to-fit&crop=1200,430,left,top&save-as=jpg",
+        "screenshot-sm2" => "&w=400&save-as=jpg&q=90&sharpen",
+        "screenshot-lg2" => "&w=600&save-as=jpg&q=90&sharpen"
     ),
 ];
